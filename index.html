@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safae El Bakkaly — Full Stack Web Developer</title>
+<meta name="description" content="Full stack web developer in Tangier, Morocco. PHP, JavaScript, SQL, API integrations, automated documents and workflows.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#F7F5F0;--ink:#14213D;--muted:#3B4458;--soft:#5A6275;--card:#FFFFFF;--line:#E3DFD6;--accent:#0F766E;--accent-ink:#FFFFFF;--panel:#14213D;--panel-ink:#F7F5F0;--panel-soft:#D9DEE9}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#0F1523;--ink:#F2F4F9;--muted:#C5CCDA;--soft:#9AA4B8;--card:#182036;--line:#2A3552;--accent:#2DD4BF;--accent-ink:#0F1523;--panel:#1E2A47;--panel-ink:#F2F4F9;--panel-soft:#C5CCDA}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+a{color:var(--accent)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+header.hero{padding:88px 0 56px}
+.eyebrow{margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{margin:0 0 22px;font-size:clamp(40px,8vw,64px);line-height:1.05;letter-spacing:-.02em}
+.lead{margin:0 0 32px;max-width:680px;font-size:clamp(17px,2.5vw,21px);color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;text-decoration:none}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{border:2px solid var(--ink);color:var(--ink)}
+section{padding:24px 0 48px}
+h2{margin:0 0 18px;font-size:30px}
+.note{margin:0 0 24px;font-size:15px;color:var(--soft)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card h3{margin:0 0 10px;font-size:20px}
+.card p{margin:0 0 14px;color:var(--muted)}
+.tags{margin:0!important;font-size:14px;font-weight:700;color:var(--accent)!important}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.skills h3{margin:0 0 6px;font-size:16px;color:var(--accent)}
+.skills p{margin:0;color:var(--muted)}
+.panel{background:var(--panel);color:var(--panel-ink);border-radius:20px;padding:36px}
+.panel h2{margin:0 0 10px;font-size:26px}
+.panel p{margin:0;max-width:700px;font-size:18px;color:var(--panel-soft)}
+footer{padding:24px 0 80px}
+footer p{margin:0 0 8px;font-size:18px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<p class="eyebrow">Full Stack Web Developer · Tangier, Morocco</p>
+<h1>Safae El Bakkaly</h1>
+<p class="lead">I build internal business tools that replace slow manual work: PHP and JavaScript back ends, API integrations, automated documents and scheduled workflows.</p>
+<div class="btns">
+<a class="btn primary" href="mailto:bakkalysafae@gmail.com">Email me</a>
+<a class="btn ghost" href="https://github.com/SAFAEELBAKKALY">GitHub</a>
+</div>
+</div></header>
+
+<main>
+<section><div class="wrap">
+<h2>About</h2>
+<p class="lead" style="margin:0">I have nearly two years of production experience at an accounting firm, building applications used daily by legal, HR and accounting teams. I like reliable, accuracy-critical software: the kind where a wrong number or a broken document has real consequences. I’m fluent in English and French, comfortable working independently, and currently learning React.</p>
+</div></section>
+
+<section><div class="wrap">
+<h2>Selected work</h2>
+<p class="note">Built for an employer, so descriptions stay general and no client data is shown.</p>
+<div class="grid">
+<article class="card"><h3>Legal dossier management</h3><p>Refactored the data structure of a legal dossier application (SARL, SA, SAS), replacing an index-linked design with independent per-section lists across 15+ files, so sections can be edited without breaking each other.</p><p class="tags">PHP · JavaScript · jQuery · SQL</p></article>
+<article class="card"><h3>Shared PDF export system</h3><p>Built a reusable export layer that generates audit-ready legal documents, French VAT (CA3) declarations and invoices, now shared across several internal applications.</p><p class="tags">PHP · FPDF · DomPDF</p></article>
+<article class="card"><h3>AI assistant panel</h3><p>Integrated the OpenAI API into an in-app assistant, with Markdown rendering and session-based handling of generated documents.</p><p class="tags">OpenAI API · JavaScript · PHP</p></article>
+<article class="card"><h3>HR automation</h3><p>About a dozen features for an HR application: scheduled alerts for ending contracts, per-employee action history, and email notifications through the Microsoft Graph API.</p><p class="tags">CRON · Microsoft Graph · PHP · MySQL</p></article>
+<article class="card"><h3>Company lookup integration</h3><p>Connected a public company registry (INPI, SIRET/SIREN) for form auto-completion, with timeout and retry handling so it stays reliable in production.</p><p class="tags">REST APIs · AJAX · JSON</p></article>
+<article class="card"><h3>Demo AI agent for a language centre</h3><p>A public demo agent that answers questions, compares course formats, collects contact details and points visitors to the next step. Built on Agentplace.</p><p class="tags"><a href="https://bbtpocivu9b3.run.agentplace.io">Try the demo</a></p></article>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Skills</h2>
+<div class="skills">
+<div><h3>Web</h3><p>HTML, CSS, JavaScript, jQuery, AJAX, JSON, PHP (OOP), WordPress</p></div>
+<div><h3>APIs and integration</h3><p>REST APIs, OpenAI, Microsoft Graph, INPI, Azure</p></div>
+<div><h3>Data and documents</h3><p>SQL, MySQL, FPDF, DomPDF, Excel/PDF extraction, CRON, PowerShell</p></div>
+<div><h3>Tools</h3><p>Git, GitHub, Docker, Apache, Linux, VS Code, Figma, UML</p></div>
+</div>
+</div></section>
+
+<section><div class="wrap"><div class="panel">
+<h2>Currently learning</h2>
+<p>React, through hands-on practice, with projects in public on GitHub. Next: TypeScript, Laravel and Python.</p>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<h2>Let’s talk</h2>
+<p>Open to remote full-stack roles and freelance work.</p>
+<p><a href="mailto:bakkalysafae@gmail.com">bakkalysafae@gmail.com</a> · <a href="https://github.com/SAFAEELBAKKALY">github.com/SAFAEELBAKKALY</a></p>
+</div></footer>
+</body>
+</html>
